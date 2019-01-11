@@ -1,0 +1,33 @@
+{
+  "name" : "File Manager Provider AWS S3",
+  "version" : "1.0.0-beta",
+  "description" : "File Manager Provider AWS S3 plugin provides connection between the File Manager Component plugin and Amazon S3 cloud. It is a member of the family of plugins for file management in your APEX application.",
+  "keywords" : ["apexutil", "aws", "s3", "file", "upload", "apex", "oracle", "item", "plugin"],
+  "homepage" : "https://github.com/dbeandrzej/File-Manager-Provider-AWS-S3",
+  "bugs" : {
+    "url" : "https://github.com/dbeandrzej/File-Manager-Provider-AWS-S3/issues",
+    "email" : "office@apexutil.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Andrei Radzetski",
+    "email" : "a.radzetski@apexutil.com",
+    "url" : "https://andrei-radzetski.github.io"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/dbeandrzej/File-Manager-Provider-AWS-S3.git"
+  },
+  "oracle" : {
+    "versions" : ["11.2.0.1", "12.1.0.1"],
+    "apex" : {
+      "versions" : ["18.1.0"],
+      "plugin" : {
+        "internalName" : "COM.APEXUTIL.FM.PROVIDER.APEXUTIL",
+        "type" : "item",
+        "demo" : "https://www.apexutil.com/apex/f?p=700:200",
+        "previewImage" : "https://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FileManagerPluginSchema.png"
+      }
+    }
+  }
+}
