@@ -26,7 +26,7 @@
         "internalName" : "COM.APEXUTIL.FM.PROVIDER.APEXUTIL",
         "type" : "item",
         "demo" : "https://www.apexutil.com/apex/f?p=700:200",
-        "previewImage" : "https://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FileManagerPluginSchema.png"
+        "previewImage" : "http://apexfilesdir.s3.eu-west-1.amazonaws.com/apexutil/FMschema1.png"
       }
     }
   }
